@@ -11,7 +11,7 @@ from typing import Dict, Any
 # --- 1. CONFIGURACIÓN INICIAL Y ESTADO ---
 # ADVERTENCIA DE SEGURIDAD: Nunca uses la clave API hardcodeada en un entorno de producción o público.
 # Es solo para testeo rápido local.
-GEMINI_API_KEY_LOCAL = 'AIzaSyC7CZe-TRJvRaetTFM0V1OouqRiOi60It8'
+GEMINI_API_KEY_LOCAL = ''
 
 
 # Usamos la memoria de sesión de Streamlit como estado global
@@ -215,3 +215,4 @@ st.sidebar.markdown(
     """
 )
 st.sidebar.info("El LLM usado es **Gemini 2.5 Flash** (modelo gratuito en el nivel de desarrollo).")
+
